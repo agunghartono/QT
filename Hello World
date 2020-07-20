@@ -1,0 +1,11 @@
+#include <QtCoreApplication>
+#include <QDebug>
+
+int main(int argc, char* argv[])
+{
+  QtCoreApplication app;
+  
+  qDebug()<<"Hello World!";
+  
+  return app.exec();
+}
